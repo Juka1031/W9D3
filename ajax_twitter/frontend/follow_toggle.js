@@ -33,18 +33,6 @@ class FollowToggle {
         }
     };
 }
-// if (this.followState === "Following") {
-//     APIUtil.unfollowUser(this.userId)
-//         .then(function () {
-//             that.followState = "Not following";
-//             that.render();
-//         });
-// } else if (this.followState === "Not following") {
-//     APIUtil.followUser(this.userId)
-//         .then(function () {
-//             that.followState = "Following";
-//             that.render();
-//         });
-// }
+
 
 module.exports = FollowToggle;
